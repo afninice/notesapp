@@ -1,0 +1,2 @@
+include ':app', ':note1app', ':cunsumerapp'
+rootProject.name='NotesApp'
