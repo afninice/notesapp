@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="afniramadania.tech.cunsumerapp">
 
+
+    <uses-permission android:name="com.dicoding.picodiploma.mynotesapp.READ_DATABASE" />
+    <uses-permission android:name="com.dicoding.picodiploma.mynotesapp.WRITE_DATABASE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NoteAddUpdateActivity" />
     </application>
-
+ 
 </manifest>
